@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>科 技 教 育</title>
+  
+  
+  <link href="/kejijiaoyu.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/kejijiaoyu.github.io/"/>
+  <updated>2020-04-28T13:52:14.376Z</updated>
+  <id>http://yoursite.com/kejijiaoyu.github.io/</id>
+  
+  <author>
+    <name>大白</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>科技教育</title>
+    <link href="http://yoursite.com/kejijiaoyu.github.io/2020/04/26/%E7%A7%91%E6%8A%80%E6%95%99%E8%82%B2/"/>
+    <id>http://yoursite.com/kejijiaoyu.github.io/2020/04/26/%E7%A7%91%E6%8A%80%E6%95%99%E8%82%B2/</id>
+    <published>2020-04-26T00:00:00.000Z</published>
+    <updated>2020-04-28T13:52:14.376Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="理念" scheme="http://yoursite.com/kejijiaoyu.github.io/tags/%E7%90%86%E5%BF%B5/"/>
+    
+  </entry>
+  
+</feed>
