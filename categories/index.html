@@ -53,8 +53,6 @@
 <link href="/kejijiaoyu.github.io/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/kejijiaoyu.github.io/images/apple-touch-icon-next.png?v=5.1.4">
-
 
   <link rel="icon" type="image/png" sizes="32x32" href="/kejijiaoyu.github.io/images/favicon-32x32-next.png?v=5.1.4">
 
@@ -295,6 +293,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -321,6 +322,10 @@
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/kejijiaoyu.github.io/uploads/avatar.jpg"
+                alt="大白" />
             
               <p class="site-author-name" itemprop="name">大白</p>
               <p class="site-description motion-element" itemprop="description">科学技术是过去、当下、以及未来的发展推动力。</p>
@@ -551,6 +556,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'z0txF9rMoV0k3L4hH5Yw2iKT-MdYXbMMI',
+        appKey: 'kXaoPfvAD3pJ0SV77utRVPSK',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
